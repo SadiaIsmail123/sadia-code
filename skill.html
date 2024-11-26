@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mdb.css">
+  <style>
+    .progress{
+      margin-top: 10px;
+
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa; 
+      padding: 20px;
+    }
+    .no1 h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+      font-weight: bold;
+    }
+    .list-group a {
+      display: block;
+      padding: 1.25rem;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      text-decoration: none;
+      color: #555;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .list-group a:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .list-group h5 {
+      font-size: 1.25rem;
+      color: #333;
+    }
+
+    .list-group p {
+      font-size: 0.95rem;
+      color: #777;
+    }
+
+    .list-group .progress {
+      margin-top: 10px;
+      height: 8px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    .list-group .progress-bar {
+      animation: progressAnimation 1.5s ease-in-out;
+    }
+
+    
+    @keyframes progressAnimation {
+      from {
+        width: 0;
+      }
+      to {
+        width: var(--progress-width);
+      }
+    }
+
+    small.text-muted {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.85rem;
+      text-align: right;
+      color: #aaa;
+    }
+  
+  .navbar {
+    padding: 20px 0; 
+    height: 100px;
+    width: 100%;
+    
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem; 
+    padding: 10px 15px; 
+  }
+
+    
+
+  </style>
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="home.html">Home/</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+  <div class="no1">
+        
+    
+    <h1>Technical Skills</h1>
+
+    
+    <div class="list-group">
+        
+        <a href="#" style="display: block; padding: 0.75rem 1.25rem; margin-bottom: 15px; background-color: #fff; border: 1px solid #dee2e6; text-decoration: none; color: rgb(77, 76, 76);">
+            <div style="display: flex; width: 100%; justify-content: space-between; flex-direction: column; align-items: flex-start;">
+                <h5 class="mb-1">HTML</h5>
+            </div>
+            <p class="mb-1">
+              I started learning HTML back in July from YouTube. I enjoyed the learning process. 
+              I made several websites, which you can see in my project section, and I have a quite good command on HTML.
+          </p>
+          <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </a>
+      <a href="#" style="display: block; padding: 0.75rem 1.25rem; margin-bottom: 15px; background-color: #fff; border: 1px solid #dee2e6; text-decoration: none; color: rgb(77, 76, 76);">
+        <div style="display: flex; width: 100%; justify-content: space-between; flex-direction: column; align-items: flex-start;">
+            <p class="mb-1">
+                <h5 class="mb-1">CSS</h5>
+                I also learned CSS in July and August from YouTube. I learned many concepts and made a clone of Amazon using HTML and CSS.
+            </p>
+            
+        </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+    </a>
+  </a>
+
+  
+  <a href="#" style="display: block; padding: 0.75rem 1.25rem; margin-bottom: 15px; background-color: #fff; border: 1px solid #dee2e6; text-decoration: none; color: rgb(77, 76, 76);">
+      <div style="display: flex; width: 100%; justify-content: space-between; flex-direction: column; align-items: flex-start;">
+          <h5 class="mb-1">JavaScript</h5>
+      </div>
+      <p class="mb-1">
+          I started taking concepts of JavaScript in my web engineering classes. Now I have much knowledge 
+          regarding to JS and also explored many concepts of JS in this projct.
+      </p>
+      <div class="progress">
+          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <small class="text-muted">Check my project section to see my skills.</small>
+  </a>
+  <a href="#" style="display: block; padding: 0.75rem 1.25rem; margin-bottom: 15px; background-color: #fff; border: 1px solid #dee2e6; text-decoration: none; color: rgb(77, 76, 76);">
+    <div style="display: flex; width: 100%; justify-content: space-between; flex-direction: column; align-items: flex-start;">
+        <h5 class="mb-1">Bootstrap</h5>
+    </div>
+    <p class="mb-1">
+        I started learning bootstrap a month ago and it's quite interesting.
+    </p>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+</a>
+</div>
+</div>
+<br>
+<br><br>
+</div>
+
+
+
+
+  <script src="mdbjs.js"></script>
+  <script src="jquery.js"></script>
+  <script src="bootstrapjs.js"></script>
+  <script src="popper.js"></script>
+  
+  
+</body>
+</html>
